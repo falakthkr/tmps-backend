@@ -21,35 +21,35 @@ Retrieve the available fields to display to the user for input to generate the t
 
   ```json
   {
-    username: {
-      type: String,
-      required: true,
-      label: "Username",
-      placeholder: "Enter Username",
+    "username": {
+      "type": "String",
+      "required": true,
+      "label": "Username",
+      "placeholder": "Enter Username",
     },
-    orderId: {
-      type: String,
-      required: true,
-      label: "Order ID",
-      placeholder: "Enter Order ID",
+    "orderId": {
+      "type": "String",
+      "required": true,
+      "label": "Order ID",
+      "placeholder": "Enter Order ID",
     },
-    amount: {
-      type: Number,
-      required: true,
-      label: "Amount (INR)",
-      placeholder: "Enter Amount in INR",
+    "amount": {
+      "type": "Number",
+      "required": true,
+      "label": "Amount (INR)",
+      "placeholder": "Enter Amount in INR",
     },
-    address: {
-      type: String,
-      required: true,
-      label: "Address",
-      placeholder: "Enter Address",
+    "address": {
+      "type": "String",
+      "required": true,
+      "label": "Address",
+      "placeholder": "Enter Address",
     },
-    trackLink: {
-      type: String,
-      required: true,
-      label: "Tracking Link",
-      placeholder: "Enter URL for Tracking Link",
+    "trackLink": {
+      "type": "String",
+      "required": true,
+      "label": "Tracking Link",
+      "placeholder": "Enter URL for Tracking Link",
     },
   },
   ```
